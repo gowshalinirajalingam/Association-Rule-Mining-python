@@ -7,7 +7,7 @@ from datetime import date
 
 
 
-df = pd.read_csv('/home/gawshalini/Documents/sampath customer profiling/test example python/Sampath_customer_dummy_data/ASSCOCIATION_RULE_MINING_TESTING_DATA.csv')
+df = pd.read_csv('/home/gawshalini/Documents/customer profiling/test example python/customer_dummy_data/ASSCOCIATION_RULE_MINING_TESTING_DATA.csv')
 # print(store_data)
 print(df.dtypes)
 print(df.columns.tolist())
